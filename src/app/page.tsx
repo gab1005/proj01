@@ -1,8 +1,9 @@
-import Image from "next/image";
-import Page1 from "@/view/page-1";
+import Home from '../view/home';
 
-export default function Home() {
+const Main = () => {
   return (
-    <Page1 />
+    <Home />
   );
 }
+
+export default Main;
