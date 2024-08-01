@@ -7,9 +7,12 @@ import { SummonerName } from "@/components/summoner-name";
 const Home = () => {
   return (
     <article>
-      <SummonerName name="gab01" />
+      <div className="" >
+      </div>
+
+      <SummonerName name="gab01#BR1" />
       <Elo />
-      <span>---</span>
+      <div className="h-2 w-20 border-2 rounded-lg bg-red-500" >---</div>
       <Pdl />
 
       <span>--- resultado = partidas por dia, e win rate diario</span>

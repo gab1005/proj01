@@ -3,8 +3,8 @@ export const Matches = () => {
     <div>
       <h2>Matches</h2>
 
-      <div>
-        <p>partidas diarias = ???????????</p>
+      <div className="bg-red-800" >
+        <p className="text-blue-700" >##### partidas diarias = ???????????</p>
       </div>
     </div>
   );
